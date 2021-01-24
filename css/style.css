@@ -1,0 +1,260 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	background: #4183D7;
+	z-index: 2;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0; 
+  left:0;
+  width: 100%;
+  box-shadow: 0px 0px 5px black;
+}
+
+.head {
+	padding: 20px;
+}
+
+.head h2 {
+	margin-top: 10px;
+}
+
+.head h2 a {
+	text-decoration: none;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 6px 0px 0px 0px;
+	padding: 0px;
+	margin-left: 300px;
+}
+
+#menu ul li {
+	float: left;
+}
+
+#menu ul li a {
+	padding: 15px;
+	float: right;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu ul li a:hover{
+	background: green;
+	border-radius: 5px;
+}
+
+#menu ul ul {
+	position: absolute;
+	display: none;
+	margin-top: 50px;
+	background: black;
+	border-radius: 5px;
+}
+
+#menu ul ul li {
+	float: none;
+}
+
+#menu ul li:hover ul {
+	display: block;
+}
+
+#slider {
+	background: url(../img/your.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border: 15px solid white;
+	box-shadow: 0px 0px 5px black;
+}
+
+#wrapper-content {
+	margin-bottom: 5px;
+}
+
+#cc_content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.judul {
+	text-align: center;
+}
+
+.bortom {
+	width: 100px;
+	background: #4183D7;
+	color: #4183D7;
+	size: 5px;
+}
+
+.img-cc {
+	width: 350px;
+	height: 200px;
+	background: url(../img/your.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px;
+}
+
+.img-cc img {
+	width: 350px;
+	height: 200px;
+}
+
+.cc-isi {
+	margin-top: 10px;
+}
+
+#cc_bottom {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#wrapper-footer {
+	background: #333;
+	height: 200px;
+}
+
+#footer {
+	background: black;
+	color: white;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#footer img {
+	width: 70px;
+	float: left;
+	margin-right:10px;
+}
+
+#footer p {
+	margin: px 0px 0px 0px;
+}
+
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('../img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+
+.jssora12l, .jssora12r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 30px;
+    height: 46px;
+    cursor: pointer;
+    background: url('../img/a12.png') no-repeat;
+    overflow: hidden;
+}
+.jssora12l { background-position: -16px -37px; }
+.jssora12r { background-position: -75px -37px; }
+.jssora12l:hover { background-position: -136px -37px; }
+.jssora12r:hover { background-position: -195px -37px; }
+.jssora12l.jssora12ldn { background-position: -256px -37px; }
+.jssora12r.jssora12rdn { background-position: -315px -37px; }
+
+#box-isi {
+	overflow: hidden;
+	height: 500px;
+}
+
+.mypage {
+	margin: 5px 5px 5px 5px;
+}
+
+.myfoot {
+	background: none;
+	color: white;
+}
+
+.informasi {
+	color: white;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 2px dotted grey;
+}
+
+.layanan {
+	padding: 0px;
+	list-style: none;
+}
+
+.layanan li {
+	border-bottom: 1px solid white;
+	margin: 5px 0px;
+}
+
+.layanan li:hover {
+	color: green;
+	cursor: pointer;
+}
+
+#scrolltop {
+	float: right;
+	overflow: hidden;
+	margin: -60px 30px 0px 0px;
+	background: #4183D7;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	position: fixed;
+	top: 600px;
+	left: 1300px;
+	cursor: pointer;
+}
+
+#scrolltop a {
+	margin: 3px 0px 0px 0px;
+	color: white;
+	text-decoration: none;
+}
+
+#scrolltop:hover {
+	background: #286090;
+}
+
+.box-fasilitas {
+	margin-top: 20px;
+}
+
+#box-logo a {
+	text-decoration: none;
+	color: white;
+}
+
+#box-logo img {
+	width: 100px;
+	float: left;
+	margin: -25px 0px -15px 0px;
+	padding-right: 5px;
+}
+
+.top-judul {
+	color: white;
+}
